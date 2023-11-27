@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/images/favicon.ico" rel="icon" type="image/x-icon">
+    <title>Azubi project1</title>
+</head>
+<body>
+
+    <form action="">
+
+        <label for="name">Name : </label>
+        <input type="text" name="name" required >
+
+        <label for="email">Email : </label>
+        <input type="email" name="email" id="">
+
+        <label for="age">Age : </label>
+        <input type="number" name="age" id="" required >
+
+        <label for="number">Phone Number : </label>
+        <input type="number" name="number" id="" required >
+
+        
+        <label for="country">Date of Birth : </label>
+        <input type="date" name="" id="" required >
+        
+        <label for="country">Select a country:</label>
+        <select id="country" name="country" >
+            <option value="usa">Nigeria</option>
+            <option value="canada">Ghana</option>
+            <option value="uk">Columbia</option>
+            <option value="usa">United States</option>
+            <option value="canada">Canada</option>
+            <option value="uk">United Kingdom</option>
+        </select>
+
+    </form>
+
+    <form action="">
+
+        <div>
+
+            <label>
+                <input type="radio" name="gender" value="male" required /> Male
+            </label>
+            <label>
+                <input type="radio" name="gender" value="female" required /> Female
+            </label>
+            <label>
+                <input type="radio" name="gender" value="other" required /> Other
+            </label>
+
+        </div>
+
+        <label>Interests:</label>
+        <div>
+            <input type="checkbox" id="interest1" name="interests[]" value="sports">
+            <label for="interest1">Sports</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="interest2" name="interests[]" value="music">
+            <label for="interest2">Music</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="interest3" name="interests[]" value="technology">
+            <label for="interest3">Technology</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="interest1" name="interests[]" value="sports">
+            <label for="interest1">Travel</label>
+        </div>
+
+        <div>
+            <input type="checkbox" id="interest2" name="interests[]" value="music">
+            <label for="interest2">Reading</label>
+        </div>
+
+        <textarea rows="8" cols="50" placeholder="Enter text here..."></textarea>
+
+        <button type="submit" style="padding: 8px 12px; display: block;">Submit</button>
+
+    </form>
+    
+</body>
+</html>
